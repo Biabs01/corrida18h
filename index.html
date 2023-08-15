@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Speed Racer</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    
+    <script src="./js/Game.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Player.js"></script>
+
+    <!-- Firebase SDK CODE ADD BELOW -->
+    <!-- Firebase -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+ 
+ // SEU CÓDIGO DO FIREBASE AQUI!
+ const firebaseConfig = {
+  apiKey: "AIzaSyA7KCeaAqxfH6dBYtH2ScYULFCnHiS1GeE",
+  authDomain: "bola-69853.firebaseapp.com",
+  databaseURL: "https://bola-69853-default-rtdb.firebaseio.com",
+  projectId: "bola-69853",
+  storageBucket: "bola-69853.appspot.com",
+  messagingSenderId: "14114122734",
+  appId: "1:14114122734:web:833d353bd57d2ea9cafcff"
+};
+
+
+  // Inicialize o Firebase
+  firebase.initializeApp(firebaseConfig);
+
+</script>
+
+   
+  </head>
+  <body>
+    
+    <script src="./sketch.js"></script>
+  </body>
+</html>
